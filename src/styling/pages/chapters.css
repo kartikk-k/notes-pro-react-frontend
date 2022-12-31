@@ -1,0 +1,36 @@
+.chapter-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.chapter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #232323;
+}
+
+@media (width <=660px) {
+    .chapter {
+        max-width: none;
+    }
+}
+
+.chapter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chapter-name {
+    font-size: 22px;
+    color: #B7FF6F;
+}
+
+.chapter-description {
+    color: #939393;
+}

@@ -1,0 +1,20 @@
+# essentials
+@tiptap/extension-document
+@tiptap/extension-paragraph
+@tiptap/extension-text
+
+# basic styling
+@tiptap/extension-bold
+@tiptap/extension-italic
+@tiptap/extension-underline
+
+# list items
+@tiptap/extension-list-item
+@tiptap/extension-bullet-list
+@tiptap/extension-ordered-list
+
+# text alignment
+@tiptap/extension-text-align
+
+@tiptap/extension-history
+

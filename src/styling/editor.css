@@ -1,0 +1,39 @@
+.ProseMirror {
+  outline: 0px;
+}
+
+.ProseMirror ul,
+ol {
+  padding: 0 1rem;
+}
+
+.writting-area {
+  margin: 20px 0px;
+  padding: 20px;
+  color: #fff;
+  border-radius: 8px;
+  background-color: #232323;
+}
+
+.toolbar {
+  display: flex;
+  padding: 10px;
+  border-radius: 8px;
+  /* overflow-x: auto; */
+  background-color: #232323;
+}
+
+.editor-btn {
+  margin: 5px 10px;
+  padding: 5px 10px;
+  border: 1px solid #ffffff16;
+  border-radius: 6px;
+  background-color: #ffffff16;
+  color: #fff;
+}
+
+.is-active {
+  /* font-weight: 500; */
+  color: #b7ff6f;
+  border: 1px solid #b7ff6f;
+}
